@@ -71,6 +71,7 @@ end
  def organize_schools(object)
    countainer = {}
    array = []
+<<<<<<< HEAD
    object.each do |school_name, value|
      value.each do |key, location|
      array.push(location)
@@ -86,4 +87,10 @@ end
  end 
 # array
 countainer
+=======
+   organize_schools.each do |school_name|
+     array.push(school_name)
+ end 
+ array
+>>>>>>> f23c52cc919c719aafbb6ecd6415adc2e70cd266
  end 
